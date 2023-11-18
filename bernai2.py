@@ -4,8 +4,6 @@ Created on Fri Nov 17 16:42:36 2023
 
 @author: molly
 """
-! pip install streamlit PyPDF2 webdriver-manager selenium python-dotenv
-
 # Import necessary libraries
 import streamlit as st
 from PyPDF2 import PdfReader
