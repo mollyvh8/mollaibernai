@@ -4,3 +4,4 @@ openai
 selenium
 webdriver-manager
 python-dotenv
+langchain
