@@ -5,7 +5,6 @@ Created on Fri Nov 17 16:42:36 2023
 @author: molly
 """
 # Import necessary libraries
-from dotenv import load_dotenv
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.prompts import PromptTemplate
@@ -28,8 +27,6 @@ import os
 os.environ["OPENAI_API_KEY"] = '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'
 
 def main():
-    # Load environment variables
-    load_dotenv()
 
     # Configure Streamlit page settings
     st.set_page_config(page_title="Ask Moll.AI and Bern.AI")
